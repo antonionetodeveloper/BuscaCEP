@@ -64,7 +64,6 @@ function App() {
         <div className='result'>
         <h2>CEP: {CEP.cep}</h2>
         <span>Logradouro: {CEP.logradouro}</span>
-        <span>complemento: {CEP.complemento}</span>
         <span>Bairro: {CEP.bairro}</span>
         <span>{CEP.localidade} - {CEP.uf}</span>
       </div>
