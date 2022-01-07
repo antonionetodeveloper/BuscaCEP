@@ -5,7 +5,7 @@ import api from './Services/api';
 function App() {
   
   function Search(){
-    if(input != ''){
+    if(input !== ''){
       apiRequest(input)
     }else{
       noValueError(input)
