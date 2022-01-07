@@ -44,7 +44,8 @@ function App() {
         <input
           className='cepInput'
           type="Text" 
-          keyboardType='numeric'
+          inputMode='numeric'
+          type="tel"
           placeholder='Digite seu CEP...'
           value={input}
           onChange={(event) => inputSet(event.target.value)}
