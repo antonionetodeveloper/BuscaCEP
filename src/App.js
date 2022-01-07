@@ -27,7 +27,7 @@ function App() {
       alert('Esse CEP não existe')
       inputSet('')
     }finally{
-      showLocation()
+      console.log("Sucess request!")
     }
   }
 
