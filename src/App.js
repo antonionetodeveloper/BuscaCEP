@@ -17,10 +17,6 @@ function App() {
       }
     }
   }
-
-  function showLocation(){
-
-  }
   
   async function apiRequest(Value){
     try{
@@ -62,11 +58,11 @@ function App() {
 
       {Object.keys(CEP).length > 0 && (
         <div className='result'>
-        <h2>CEP: {CEP.cep}</h2>
-        <span>Logradouro: {CEP.logradouro}</span>
-        <span>Bairro: {CEP.bairro}</span>
-        <span>{CEP.localidade} - {CEP.uf}</span>
-      </div>
+          <h2>CEP: {CEP.cep}</h2>
+          <span>Logradouro: {CEP.logradouro}</span>
+          <span>Bairro: {CEP.bairro}</span>
+          <span>{CEP.localidade} - {CEP.uf}</span>
+        </div>
       )}  
     </div>
   );
